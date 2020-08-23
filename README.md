@@ -1,9 +1,3 @@
-# 2009Scape - The most complete Runescape Emulation server. Pull requests welcome! ![Gameplay image](https://i.imgur.com/31b6KpU.png)
-
-Join our Discord server: https://discord.gg/43YPGND
-
-We also have a live game in the [Releases](https://github.com/dginovker/RS-2009/releases) section that always runs the latest code.
-
 # Running your own instance
 Please follow this [self hosting guide](selfhosting.md)
 
@@ -39,9 +33,6 @@ Since this portion of the guide is operating-system specific, you will either ne
 - Create 2 new databases named `server` and `global`
 - Import `Server/server.sql` and `Server/global.sql` into their respective databases
   - _Refer [here](https://www.thecodedeveloper.com/import-large-sql-files-xampp/) for help importing the `.sql` files_
-
-### Linux Command Line
-- Instructions for various Linux distros can be found [here](https://github.com/dginovker/2009Scape/tree/b7bffda1c787f0ad8e9da83f9de7616990927878/CompiledServer/Guides)
 
 
 ## Step 4: Running the Server & Client
